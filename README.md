@@ -22,4 +22,5 @@ This project is a basic Android app that allows a user to order coffee. It serve
 ## How to Build and Run
 
 1.  **Clone the repository:**
+  git clone https://github.com/mufassiriqbal/coffee_ordering.git
     
