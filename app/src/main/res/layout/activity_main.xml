@@ -6,6 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/app_background"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -22,6 +23,13 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_coffee_cup"
+                android:contentDescription="Coffee cup icon"/>
+
             <EditText
                 android:id="@+id/name_field"
                 android:layout_width="match_parent"
@@ -30,10 +38,8 @@
                 android:inputType="textCapWords" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Toppings"
                 style="@style/TextAppearance.AppCompat.Medium"
+                android:text="Toppings"
                 android:layout_marginTop="16dp"/>
 
             <CheckBox
@@ -53,10 +59,8 @@
                 android:textSize="16sp" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Quantity"
                 style="@style/TextAppearance.AppCompat.Medium"
+                android:text="Quantity"
                 android:layout_marginTop="16dp"/>
 
             <LinearLayout
@@ -89,10 +93,8 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Order Summary"
                 style="@style/TextAppearance.AppCompat.Medium"
+                android:text="Order Summary"
                 android:layout_marginTop="16dp"/>
 
             <TextView

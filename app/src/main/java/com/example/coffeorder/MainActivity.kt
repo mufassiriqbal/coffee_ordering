@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun displayQuantity(number: Int) {
         val quantityTextView = findViewById<TextView>(R.id.quantity_text_view)
-        quantityTextView.text = "" + number
+        quantityTextView.text = number.toString()
     }
 
     private fun calculatePrice(hasWhippedCream: Boolean, hasChocolate: Boolean): Int {
